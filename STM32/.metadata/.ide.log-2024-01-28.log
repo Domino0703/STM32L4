@@ -1,0 +1,54 @@
+2024-01-28 10:44:26,645 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: Native resources unavailable
+2024-01-28 10:44:26,668 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.getScreenImOn(Native Method)
+2024-01-28 10:44:26,669 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/sun.awt.windows.WWindowPeer.updateGC(WWindowPeer.java:566)
+2024-01-28 10:44:26,670 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313)
+2024-01-28 10:44:26,670 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770)
+2024-01-28 10:44:26,671 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2024-01-28 10:44:26,671 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2024-01-28 10:44:26,672 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2024-01-28 10:44:26,673 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2024-01-28 10:44:26,674 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+2024-01-28 10:44:26,675 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-01-28 10:44:26,676 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+2024-01-28 10:44:26,676 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2024-01-28 10:44:26,678 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2024-01-28 10:44:26,679 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2024-01-28 10:44:26,679 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-01-28 10:44:26,680 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-01-28 10:44:26,681 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-01-28 10:44:26,682 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-01-28 10:44:26,683 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-01-28 10:44:26,684 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-01-28 10:56:03,501 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 591449552 Bytes (762314752)
+2024-01-28 10:56:05,210 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 305254288 Bytes (762314752)
+2024-01-28 10:56:12,043 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 409585552 Bytes (762314752)
+2024-01-28 10:56:12,154 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-01-28 10:56:12,154 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-01-28 10:56:12,154 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-01-28 10:56:12,154 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-01-28 10:56:12,155 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-01-28 10:56:12,155 [INFO] CodeGenerator:793 - code generatio: config db path: C:\Program Files\STM32CubeIDE_1.12.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.1.202304191431\\db\
+2024-01-28 10:56:12,231 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\MXTmpFiles\license.tmp_save
+2024-01-28 10:56:12,286 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\MXTmpFiles\license.tmp
+2024-01-28 10:56:12,294 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\MXTmpFiles\gpio.tmp_save
+2024-01-28 10:56:12,357 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\MXTmpFiles\gpio.tmp
+2024-01-28 10:56:12,405 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Src\stm32l4xx_it.c_save
+2024-01-28 10:56:12,499 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Src\stm32l4xx_it.c
+2024-01-28 10:56:12,499 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Inc\stm32l4xx_it.h_save
+2024-01-28 10:56:12,548 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Inc\stm32l4xx_it.h
+2024-01-28 10:56:12,549 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Src\stm32l4xx_hal_msp.c_save
+2024-01-28 10:56:12,625 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Src\stm32l4xx_hal_msp.c
+2024-01-28 10:56:12,625 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\MXTmpFiles\system.tmp_save
+2024-01-28 10:56:12,656 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\MXTmpFiles\system.tmp
+2024-01-28 10:56:12,672 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Inc\stm32l4xx_hal_conf.h_save
+2024-01-28 10:56:12,735 [INFO] CodeEngine:335 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Inc\stm32l4xx_hal_conf.h
+2024-01-28 10:56:12,750 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Inc\main.h_save
+2024-01-28 10:56:12,813 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Inc\main.h
+2024-01-28 10:56:12,813 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Src\main.c_save
+2024-01-28 10:56:12,877 [INFO] CodeEngine:279 - Generated code: C:\Git_projects\Projects_GIT\STM32\Project_2_UART\Core\Src\main.c
+2024-01-28 10:56:13,301 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 125mS.
+2024-01-28 10:56:13,317 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2024-01-28 10:56:13,530 [INFO] ConfigFileManager:1483 - The Die is : DIE415
+2024-01-28 10:56:14,184 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 883mS.
+2024-01-28 10:56:14,185 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2024-01-28 10:56:14,186 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

@@ -1,0 +1,10 @@
+15:26:01 **** Incremental Build of configuration Debug for project Project_3_Timers ****
+make -j16 all 
+arm-none-eabi-size   Project_3_Timers.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12096	     20	   1724	  13840	   3610	Project_3_Timers.elf
+Finished building: default.size.stdout
+ 
+
+15:26:01 Build Finished. 0 errors, 0 warnings. (took 204ms)
+
